@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <title>Leah Vogel</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("https://i.imgur.com/9lrDVnG.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      font-family: helvetica;
+    }
+    p {
+      font-size: 22px;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: red;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <img style="border:5px solid black" src="https://i.imgur.com/O0JL1Aj.png" alt="Leah's Profile Picture" width="150">
+  <h1>Leah Vogel</h1>
+  <p>Hi! I'm Leah, an MIT mechanical engineer. Say hello!</p>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+</body>
